@@ -3,7 +3,7 @@ require("express-async-errors");
 const express = require("express");
 const morgan = require("morgan");
 const dotenv = require("dotenv");
-dotenv.config({ path: "./config.env" });
+dotenv.config({ path: "./.env" });
 
 const cors = require("cors");
 
